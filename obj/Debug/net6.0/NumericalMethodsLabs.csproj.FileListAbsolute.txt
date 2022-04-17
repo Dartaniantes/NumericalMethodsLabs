@@ -1,0 +1,15 @@
+D:\c#\MusicVideoPlayer\NumericalMethodsLabs\NumericalMethodsLabs\bin\Debug\net6.0\NumericalMethodsLabs.exe
+D:\c#\MusicVideoPlayer\NumericalMethodsLabs\NumericalMethodsLabs\bin\Debug\net6.0\NumericalMethodsLabs.deps.json
+D:\c#\MusicVideoPlayer\NumericalMethodsLabs\NumericalMethodsLabs\bin\Debug\net6.0\NumericalMethodsLabs.runtimeconfig.json
+D:\c#\MusicVideoPlayer\NumericalMethodsLabs\NumericalMethodsLabs\bin\Debug\net6.0\NumericalMethodsLabs.dll
+D:\c#\MusicVideoPlayer\NumericalMethodsLabs\NumericalMethodsLabs\bin\Debug\net6.0\NumericalMethodsLabs.pdb
+D:\c#\MusicVideoPlayer\NumericalMethodsLabs\NumericalMethodsLabs\obj\Debug\net6.0\NumericalMethodsLabs.csproj.AssemblyReference.cache
+D:\c#\MusicVideoPlayer\NumericalMethodsLabs\NumericalMethodsLabs\obj\Debug\net6.0\NumericalMethodsLabs.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#\MusicVideoPlayer\NumericalMethodsLabs\NumericalMethodsLabs\obj\Debug\net6.0\NumericalMethodsLabs.AssemblyInfoInputs.cache
+D:\c#\MusicVideoPlayer\NumericalMethodsLabs\NumericalMethodsLabs\obj\Debug\net6.0\NumericalMethodsLabs.AssemblyInfo.cs
+D:\c#\MusicVideoPlayer\NumericalMethodsLabs\NumericalMethodsLabs\obj\Debug\net6.0\NumericalMethodsLabs.csproj.CoreCompileInputs.cache
+D:\c#\MusicVideoPlayer\NumericalMethodsLabs\NumericalMethodsLabs\obj\Debug\net6.0\NumericalMethodsLabs.dll
+D:\c#\MusicVideoPlayer\NumericalMethodsLabs\NumericalMethodsLabs\obj\Debug\net6.0\refint\NumericalMethodsLabs.dll
+D:\c#\MusicVideoPlayer\NumericalMethodsLabs\NumericalMethodsLabs\obj\Debug\net6.0\NumericalMethodsLabs.pdb
+D:\c#\MusicVideoPlayer\NumericalMethodsLabs\NumericalMethodsLabs\obj\Debug\net6.0\NumericalMethodsLabs.genruntimeconfig.cache
+D:\c#\MusicVideoPlayer\NumericalMethodsLabs\NumericalMethodsLabs\obj\Debug\net6.0\ref\NumericalMethodsLabs.dll
