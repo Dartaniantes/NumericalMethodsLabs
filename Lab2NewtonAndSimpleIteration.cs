@@ -10,18 +10,15 @@ namespace NumericalMethodsLabs
 
         public static void Main(string[] args)
         {
-
-
+            p();
             q();
-
         }
 
         public static void q()
         {
-            Console.WriteLine("q(x) root finding started\n\n");
+            Console.WriteLine("\n\tq(x) root finding started\n");
 
             Func q = x => 2*Pow(x,3) - 3 * Pow(x, 2) -12*x + 8;             // roots: 0.611315455 , -2.1519448 , 3.0406293
-
 
             //for root : x = 0.611315455
             //dFi(x01)<1 when x01=[-0.9 ; 1.9]
@@ -31,9 +28,8 @@ namespace NumericalMethodsLabs
 
             findRoot(q, fi, dFi, x01);
 
-
             // for roots : x = 3.0406293  x = -2.15194; 
-            //dfi2(x02) < 1 when x02 = (-inf;-5.26] + [-4.14;]
+            //dfi2(x02) < 1 when x02 = (-inf;-5.26] + [-4.14;0.14] + [1.253;+inf]
             Func fi2 = x => Cbrt((3 * Pow(x, 2) + 12 * x - 8) / 2);                                 //
             Func dFi2 = x => (x + 2)*Cbrt(Pow(2,2)) / Cbrt(Pow(3 * Pow(x, 2) + 12 * x - 8, 2));
             double x02 =0.14;
@@ -42,9 +38,7 @@ namespace NumericalMethodsLabs
             double x03 = 1.5;
             findRoot(q, fi2, dFi2, x03);
 
-
-            Console.WriteLine("\n\nq(x) root finding ended");
-
+            Console.WriteLine("\n\tq(x) root finding ended");
         }
 
         public static void findRoot(Func f, Func fi, Func dFi, double x0)
@@ -52,7 +46,6 @@ namespace NumericalMethodsLabs
             double result;
             if (!MethodConverges(dFi, x0))
             {
-
                 Console.WriteLine("Fi function picked up unsuccessfully. Try other way for bringing out the root" +
                     "\nPress any key to quit the program");
                 Console.ReadKey();
@@ -62,14 +55,13 @@ namespace NumericalMethodsLabs
             if (Abs(Round(result)%result) <= eps)
                 result = Round(result);
             Console.WriteLine("\nx = " + result + "\t\t x0 = "+ x0 );
-            Console.WriteLine("iteratinos =  " + iterations + "\n\n");
+            Console.WriteLine("iteratinos =  " + iterations + "\n");
         }
 
         public static void p()
         {
-            Console.WriteLine("p(x) root finding started\n\n");
+            Console.WriteLine("\tp(x) root finding started\n");
             Func p = x => Pow(x, 2) - Sin(PI * x);          // roots : x = 0 ;  x = 0.78723712
-
 
             //for root 0;   dFi(x01) < 1 when x01=[-0.9;0.9]
             Func fi = x => Asin(Pow(x, 2)) / PI;
@@ -79,7 +71,6 @@ namespace NumericalMethodsLabs
 
             findRoot(p, fi, dFi, x01);
 
-
             //for root 0.78723712;   dFi2(x02) < 1 when x02={... -1.5; 0.5; 2.5 ...}+-0.19
             Func fi2 = x => Sqrt(Sin(PI * x));
             Func dFi2 = x => PI * Cos(PI * x) / (2 * Sqrt(Sin(PI * x)));
@@ -87,7 +78,7 @@ namespace NumericalMethodsLabs
             Console.WriteLine("|dfi("+x02+")| = " + Abs(dFi2(x02)));
 
             findRoot(p, fi2, dFi2, x02);
-            Console.WriteLine("\n\np(x) root finding ended");
+            Console.WriteLine("\tp(x) root finding ended\n");
         }
 
         public static bool HasRoot(Func f, double a, double b)
@@ -113,6 +104,5 @@ namespace NumericalMethodsLabs
             }
             return x;
         }
-
     }
 }
